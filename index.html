@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced CSS-Responsive gallery</title>
+  <style>
+
+    :root {
+      --primary-dark-color: rgb(48, 114, 200);
+    }
+    .gallery {
+        display: grid;
+        margin: 0 auto;
+        grid-gap: 70px;
+        max-width: 1200px;
+        width: 90%;
+        background-color: white;   
+        grid-template-columns: repeat(auto-fit, minmax(144px, 1fr));
+        }
+    .box {
+        height: 20%;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: 0.8em;
+        background-color: rgb(224, 243, 255);
+        margin-top: -5px;
+        width: 70%;
+        margin-left: 1.95em;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+        padding-top: 0.5em;
+        }
+    img {
+      width: 70%;
+      margin-left: 25px;
+      background-color: var(--primary-dark-color);
+    }
+    #text p {
+      text-align: justify;
+    }
+    #text {
+      margin-top: 40px;
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Gallery Heading</h1>
+  <div class="gallery">
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>  
+      </div>
+    
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+    
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+    
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png" alt="some pic">
+      <div class="box">Image title</div>
+      </div>
+
+      <div class="column">
+        <img src="placeholder-image.png"alt="some pic">
+      <div class="box">Image title</div>
+      <p></p>
+    </div>
+  </div>
+
+  <div id="text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit in nisl quis dapibus. Vivamus interdum ligula ut elit feugiat, ut semper tellus imperdiet. Nullam id massa 
+    lectus.Pellentesque semper arcu vel ante dignissim cursus. Vivamus sit amet iaculis ligula. Nulla placerat, felis sed eleifend sollicitudin, odio velit accumsan leo, in bibendum arcu ante a 
+    diam.Aenean porta tempus felis, nec interdum quam. Donec imperdiet tortor ullamcorper dui convallis, at semper ex venenatis. Vivamus a lorem vulputate dui consectetur dapibus nec in arcu. 
+    Nullam aliquet ac enim in faucibus.
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras suscipit in nisl quis dapibus. Vivamus interdum ligula ut elit feugiat, ut semper tellus imperdiet. Nullam id massa 
+    lectus. 
+    Pellentesque semper arcu vel ante dignissim cursus. Vivamus sit amet iaculis ligula. Nulla placerat, felis sed eleifend sollicitudin, odio velit accumsan leo, in bibendum arcu ante a 
+    diam.Aenean porta tempus felis, nec interdum quam. Donec imperdiet tortor ullamcorper dui convallis, at semper ex venenatis. Vivamus a lorem vulputate dui consectetur dapibus nec in arcu. 
+    Nullam aliquet ac enim in faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque pretium varius varius. Duis volutpat elementum neque, sed congue neque luctus ut. Nunc 
+    ligula lacus, hendrerit eget urna finibus, tristique ullamcorper nulla. Pellentesque congue laoreet eros. Nunc sit amet ipsum id ex rhoncus ornare quis eu mi. Morbi ac finibus odio. 
+    Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc mattis tempus tempor. Etiam at neque sed nisl ornare semper pharetra non sapien. Praesent pellentesque, ipsum a fermentum 
+    fermentum, sapien dui pharetra felis, in dictum arcu urna in nibh. Aliquam pulvinar pellentesque nisl, pharetra ultricies mauris auctor vel. Aliquam erat volutpat. Vestibulum suscipit ut 
+    ligula finibus semper. In hac habitasse platea dictumst. Fusce ante nisi, auctor vel fermentum sed, tincidunt non ex.</p>
+  </div>
+  
+  
+</body>
+</html>
